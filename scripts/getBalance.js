@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 require("dotenv").config();
 
-const amoyContract = "0xE4E9aE0Ea1Dfc216867594fb55428C2726b607a1";
+const amoyContract = "0xe6fb9BC6F8f916e0909105437dB20102E894D3f0";
 
 async function main() {
   const PolyNFT = await hre.ethers.getContractFactory("PolyNFT");
